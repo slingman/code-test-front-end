@@ -16,4 +16,4 @@ You'll find the images and videos under the ```resources``` folder
 * Should run only in the latest version of Chrome on the desktop (either Mac or Windows, you don't have to do both)
 * When using the keyboard, you should *not* be able to loop around to the start of the carousal when reaching the end
 * You may organize newly created files as you see fit, but please keep the ```resources``` folder intact
-* The elements should *not* fit on the screen so that when you navigate to the right, they animate into view
+* The elements should *not* fit on the screen so that when you navigate to the right, they animate into view (4.5 should be in view when first loaded)
