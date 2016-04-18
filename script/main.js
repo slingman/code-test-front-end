@@ -6,7 +6,7 @@ function movieClick(e) {
   var selectedMovieElem = document.querySelector("input[type='radio'][checked='checked']")
 
   if (selectedMovieElem) {
-    var selectedMovie = selectedMovieElem.getAttribute("data-movie")
+    var selectedMovie = current.getAttribute("data-movie")
     
     current.setAttribute("checked","checked")
     selectedMovieElem.removeAttribute("checked")
