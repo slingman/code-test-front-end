@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Samsung Code Test - Carousel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="show-series">
+    <div id="movie" class="play-movie">
+      <div id="GG">
+        <video poster="resources/images/Gortimer.Gibbons.png" controls>
+          <source src="resources/videos/GG.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>  
+  </div>
+
+  <div class="series-thumbs">
+    <ul>
+      <li>
+        <input type="radio" name="swap" id="movie1" data-movie="GG" checked="checked" class="selected" />
+        <label for="movie1">
+          <img src="resources/images/Gortimer.Gibbons.png"/>
+        </label>
+      </li>
+      <li>
+        <input type="radio" name="swap" id="movie2" data-movie="HOG" />
+        <label for="movie2">
+          <img src="resources/images/Hand.of.God.png"/>
+        </label>
+      </li>
+      <li>
+        <input type="radio" name="swap" id="movie3" data-movie="MITHC" />
+        <label for="movie3">
+          <img src="resources/images/MITHC.png"/>
+        </label>
+      </li>
+      <li>
+        <input type="radio" name="swap" id="movie4" data-movie="MITJ" />
+        <label for="movie4">
+          <img src="resources/images/MITJ.png"/>
+        </label>
+      </li>
+      <li>
+        <input type="radio" name="swap" id="movie5" data-movie="RED" />
+        <label for="movie5">
+          <img src="resources/images/Red.Oaks.png"/>
+        </label>
+      </li>
+      <li>
+        <input type="radio" name="swap" id="movie6" data-movie="TRN"/>
+        <label for="movie6">
+          <img src="resources/images/Transparent.png"/>
+        </label>
+      </li>
+      <li>
+        <input type="radio" name="swap" id="movie7" data-movie="Wishenpoof" />
+        <label for="movie7">
+          <img src="resources/images/Wishenpoof.png"/>
+        </label>
+      </li>
+    </ul>
+  </div>
+
+  <div id="all-series" style="display:none">
+    <div id="GG">
+      <video poster="resources/images/Gortimer.Gibbons.png" controls>
+        <source src="resources/videos/GG.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="HOG">
+      <video poster="resources/images/Hand.of.God.png" controls>
+        <source src="resources/videos/pharrell_happy.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="MITHC">
+      <video poster="resources/images/MITHC.png" controls>
+        <source src="resources/videos/MITHC.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="MITJ">
+      <video poster="resources/images/MITJ.png" controls>
+        <source src="resources/videos/MITJ.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="RED">
+      <video poster="resources/images/Red.Oaks.png" controls>
+        <source src="resources/videos/RED.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="TRN">
+      <video poster="resources/images/Transparent.png" controls>
+        <source src="resources/videos/TRN.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="Wishenpoof">
+      <video poster="resources/images/Wishenpoof.png" controls>
+        <source src="resources/videos/Wishenpoof.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <script src="script/main.js"></script>
+</body>
+</html>
